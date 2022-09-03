@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>append on button</title>
+</head>
+<body>
+	<div id="test"></div>
+	<button onclick=demo()>Click here</button>
+
+</body>
+<script>
+	function demo()
+	{ 
+		var a = document.createElement("h2")
+	var b = document.createTextNode("welcome to my page")
+
+	a.appendChild(b)
+
+	var c = document.getElementById('test');
+
+	c.appendChild(a)}
+
+
+
+
+</script>
+</html>

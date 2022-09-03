@@ -1,0 +1,19 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+#image img{
+	height: 400px;
+	width: 400px;
+}
+.main{
+	display:flex;
+	margin-left: 200px;
+
+
+
+}
+#form{
+	margin-top: 130px;
+	font-size: 20px;
+}

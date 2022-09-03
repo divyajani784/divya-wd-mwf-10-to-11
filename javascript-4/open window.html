@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>open window</title>
+</head>
+<body>
+
+	<div>
+		<button onclick="openwindow()">click here to open </button>
+		<button onclick="closewindow()"> click here to close</button>
+	</div>
+
+</body>
+<script>
+	var mywindow;
+
+	function openwindow()
+	{
+		mywindow = window.open("https://invinciblengo.org/","_blank", )
+	}
+
+
+	function closewindow()
+	{
+		mywindow.close();
+	}
+</script>
+</html>

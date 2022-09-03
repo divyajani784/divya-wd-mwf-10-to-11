@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>calculate</title>
+</head>
+<body>
+<form>
+	<input type="text" id="first">
+	
+	<select id="opr">
+		<option value="+">+</option>
+		<option value="-">-</option>
+		<option value="*">*</option>
+		<option value="/">/</option>
+		<option value="%">%</option>
+	</select>
+
+	<input type="text" id="sec">
+
+	<button onclick="result()">Result</button>
+	<input type="text" readonly id="abc">
+</form>
+</body>
+
+<script>
+	function result()
+	{
+		var a = document.getElementById('first').value
+		var b = document.getElementById('sec').value
+		var c = document.getElementById('opr').value
+
+		if( c == '+' )
+		{
+			var z = parseInt(a) + parseInt(b)
+
+		} 
+
+		if( c == '-' )
+		{
+			var z = parseInt(a) - parseInt(b)
+
+
+		} 
+		if( c == '*' )
+		{
+			var z = parseInt(a) * parseInt(b)
+
+		} 
+		if( c == '/' )
+		{
+			var z = parseInt(a) / parseInt(b)
+
+		} 
+		if( c == '%' )
+		{
+			var z = parseInt(a) % parseInt(b)
+
+		} 
+
+		document.getElementById('abc').value=z
+		
+		
+
+
+	}
+
+</script>
+</html>
