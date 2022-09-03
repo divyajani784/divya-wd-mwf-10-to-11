@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>append child</title>
+</head>
+<body>
+	<div id="test"></div>
+
+</body>
+<script type="text/javascript">
+	var a = document.createElement("h1");
+	var b = document.createTextNode("hello world");
+
+     
+   	a.appendChild(b);
+   	
+   	document.getElementById('test').appendChild(a);
+	
+	console.log(a);
+	// console.log(b);
+</script>
+</html>

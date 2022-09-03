@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title><object></object></title>
+</head>
+<body>
+
+</body>
+<script type="text/javascript">
+	var a = {
+		fname : "divya",
+		lname : "jani",
+		age : "21",
+		favmovie : ['dhoom','sholay','hum'],
+		salary : function(){
+			return 25000;
+		},
+		fullname : function(){
+			return this.fname + " " + this.lname
+		}
+
+	}
+	// document.write(a.fname);
+	// document.write(a.favmovie[1]);
+	// document.write(a.salary());
+	document.write(a.fullname())
+	console.log(a)
+</script>
+</html>
