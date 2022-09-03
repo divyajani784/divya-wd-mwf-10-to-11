@@ -1,0 +1,291 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+.logo{
+	height: 100px;
+	width: 100px;
+
+}
+.logo img {
+	height: 130px;
+	width: 150px;
+	/*margin-top: 3px;*/
+	margin-left: 5px;
+	border-radius: 100%;
+}
+ul{
+	display: flex;
+}
+ul li{
+	display: flex;
+	padding: 10px;
+}
+ul li a{
+	text-decoration: none;
+	font-size: 45px;
+	color: blue;
+	margin-left: 55px;
+
+}
+a:hover{
+	background-color:lightgreen;
+	border-radius: 10px;
+	padding: 10px;
+}
+header{
+	position: relative;
+	display: flex;
+	align-items: center;
+	height: 150px;
+	z-index: 5;
+	/*position: sticky;*/
+	top: 0;
+
+
+}
+/*header:before{
+	content: "";
+	position: absolute;
+	height:140px;
+	width: 100%;
+	background: linear-gradient(pink,white,gray,);
+	background: url(dj.jpg);
+
+	background-size: cover;
+	background-repeat: no-repeat;
+	opacity: 0.3;
+	z-index: -1;
+}*/
+.b{
+	text-align: center;
+	font-size: 40px;
+	color:navy ;
+	font-family: cursive;
+	animation: ab 5s infinite;
+}
+
+.a{
+	display: flex;
+	flex-direction: column;
+	padding: 28px 300px;
+	justify-content: center;
+	align-items: center;
+	height: 800px;	
+	z-index: -1;
+	opacity: 0.8;
+}
+.a::before{
+	content: "";
+	position: absolute;
+	margin-bottom: 160px;
+	background-image: url(first.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 1000px;
+	width: 100%;
+	z-index: -1;
+	opacity: 1.9;
+}
+.slider{
+	height: 600px;
+	width: 800px;
+	background: url(60.jpg);
+	background-repeat: no-repeat;
+	animation: slide 15s infinite;
+	/*margin-bottom: 600px;*/
+	margin-left: 400px;
+}
+@keyframes slide{
+	0%{background: url(60.jpg);background-repeat: no-repeat;}
+	25%{background: url(600.jpg);background-repeat: no-repeat;}
+	50%{background: url(60.jpg);background-repeat: no-repeat;}
+	75%{background: url(600.jpg);background-repeat: no-repeat;}
+	100%{background: url(60.jpg);background-repeat: no-repeat;}
+
+}
+ h1{
+	text-align: center;
+	font-size: 45px;
+	color: lightgreen;
+}
+.google{
+	width: 80%;
+	margin: auto;
+	text-align: center;
+	padding-top: 40px;
+	font-size: 30px;
+}
+.di{
+	color: blue;
+	animation-name: ab;
+	animation-duration: 5s;
+	animation-iteration-count: infinite;
+}
+@keyframes ab{
+	0%{color: blue;}
+	25%{color: green;}
+	50%{color: blue;}
+	75%{color: green;}
+	100%{color: blue;}
+
+}
+.back{
+	margin-top: 50px;
+	display: flex;
+	justify-content: space-between;
+}
+.front{
+	width: 80%;
+	margin-top: 10px;
+	margin:auto ;
+	padding-top:20px ;
+	text-align: center;
+}
+.middle{
+	flex-basis: 31%;
+	border-radius: 10px;
+	position: relative;
+	margin-bottom: 30px;
+	overflow: hidden;
+	color: green;
+
+}
+.middle img{
+	width: 100%;
+	display: block;
+	height: 100%;
+}
+.me{
+	height: 100%;
+	width: 100%;
+	top: 0;
+	left: 0;
+	position: absolute;
+	color:blue;
+
+}
+.middle:hover{
+	box-shadow: 0px 10px 20px 20px;
+}
+
+.num{
+	margin-top: 40px;
+	display: flex;
+	justify-content: space-between;
+}
+.them{
+		border-radius: 25%;
+}
+.them:hover{
+
+
+
+}
+
+
+.fire{
+	font-size: 30px;
+	color: green;
+	text-align: center;}
+
+h3{
+	color: blue;
+}
+
+
+h2{
+	color: blue;
+	text-align: center;
+	font-size: 35px;
+	animation: ab 5s infinite;
+}
+
+
+.fa-color{
+	color: green;
+}
+.color{
+	color: blue;
+}
+.us{
+	width: 80%;
+	margin-left: 10%;
+}
+	
+.can{
+	display: flex;
+	width: 80%;
+	text-align: center;
+	margin-top: 40px;
+	margin-bottom: 40px;
+	margin-left:80px;
+}
+.we {
+	
+	width: 50%;
+	/*border: 2px solid black;*/
+}
+.we h6{
+
+	font-size: 30px;
+	border: 2px solid black;
+	margin-left: 255px;
+	/*margin-bottom: 255px;*/
+	/*display: flex;	*/
+
+
+}
+
+
+.xy{
+	background-color: lightgreen;
+}
+.pq{
+	text-align: center;
+}
+
+.xyz{
+	font-size: 25px;
+	color: blue;
+	margin-left: 19px;
+
+
+}
+
+
+#footer{
+	width: 100%;
+	height: 50vh;
+	margin-left: auto;
+	margin-top: 30px;
+}
+#footer .heading{
+	color: blue;
+}
+
+#footer .main{
+	display: flex;
+	flex-direction: column;
+	width: 80%;
+	margin-left: 20%;
+}
+	
+#footer .we{
+	display: flex;
+	align-items: center;
+}
+#footer .we i{
+	padding-right: 10px;
+	font-size: 50px;
+	color: green;
+}
+#footer .we p{
+	font-size: 25px;
+	color: green;
+}
+
+
+
+

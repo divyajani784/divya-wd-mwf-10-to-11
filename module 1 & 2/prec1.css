@@ -1,0 +1,84 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+header{
+
+	position: relative;
+	display: flex;
+	
+	height: 100%;
+	
+	}
+
+
+header::before{
+	content: "";
+	background-image: url(divya.jpg);
+	background-size: cover;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	opacity: 0.5;
+	z-index: -1;
+}
+
+
+div{
+	height: 60px;
+	margin-left: 20px;
+}
+
+img{
+	height: 60px;
+	border-radius:50px;
+}
+
+ul{
+	display: flex;
+	width: 100%;
+    padding: 20px;
+}
+
+ul li{
+	list-style: none;
+	text-align: center;
+}
+			
+
+ul li a{
+	text-decoration: none;
+	padding: 5px 15px;
+	justify-content: center;
+	align-items: center;
+
+}
+h1{
+	font-size: 65px;
+	text-align: center;
+}
+
+section{
+	text-align: center;
+	font-size: 45px;
+	background-position: center;
+	background-size: 1350px 600px;
+}
+
+a:hover{background-color: yellow;
+color: blue;}
+
+button:hover{
+
+	background-color: yellow;
+	color: blue;
+	border: 2px solid black;
+	border-radius: 30%;
+	padding: 5px 8px;
+	font-size: 35px;
+}
+
+
+
+

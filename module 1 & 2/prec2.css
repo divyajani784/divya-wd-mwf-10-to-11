@@ -1,0 +1,146 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+    ul{
+	display: flex;
+	padding: 20px;
+	width: 100%;}
+
+	ul li{
+		list-style: none;
+		text-align: center;
+	}
+	ul li a {
+		text-decoration: none;
+		justify-content: center;
+		text-align: center;
+		padding: 25px 35px;
+		font-size: 30px;
+	}  
+
+	header{
+		position: relative;
+		display: flex;
+		height: 100%;
+	}
+
+	header::before{
+		content: "";
+		background-image: url(divya.jpg);
+		background-size: cover;
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		opacity: 0.5;
+		z-index: -1;
+	}
+
+	div{
+		height: 100px;
+		margin-left: 20px;
+	}
+
+
+	img{
+		border-radius: 80px;
+		height: 100px;
+		width: 100px;
+}
+
+section{
+	text-align: center;
+	font-size: 45px;
+	color: green;
+
+}
+
+h1{
+	font-size:50px ;
+	color: blue;
+}
+
+
+
+button:hover{
+	background-color: yellow;
+	color: blue;
+	border-radius: 20%;
+	border: 3px solid black;
+	font-size: 25px;
+}
+
+a:hover{
+	background-color: yellow;
+	color: blue;
+	font-size: 30px;
+}
+
+footer{
+	display: flex;
+	text-align: center;
+	text-decoration: none;
+	padding: 10px;
+	background-color: yellow;
+	font-size: 40px;
+	height: 80px;
+}
+
+
+footer a{
+	padding: 18px;
+}
+
+.box{
+	width: 100%;
+	border: 2px solid black;
+	display: flex;
+	height: 400px;
+	padding-top: 20px;
+
+
+}
+
+.a{
+	width: 25%;
+	height: 100%;
+	border: 1px solid black;
+	text-align: center;
+	background-image: url(1.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	font-size: 45px;
+}
+.logo{
+	text-decoration: none;
+}
+
+.b{
+	width: 50%;
+	height: 100%;
+	border: 1px solid black;
+	text-align: center;
+	background-image: url(2.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	font-size: 45px;
+}
+
+.c{
+	width: 25%;
+	height: 100%;
+	border: 1px solid black;
+	text-align: center;
+	background-image: url(3.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	font-size: 45px;
+}
+
+h2{
+	text-align: center;
+	font-size: 50px;
+	color: red;
+}
+

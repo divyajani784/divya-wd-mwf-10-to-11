@@ -1,0 +1,40 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.menu{
+	height: 55px;
+	width: 100%;
+	background-color: black;
+}
+.menu a{
+	float: left;
+	color: white;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+.submenu{
+	float: left;
+}
+.submenubtn{
+	border: none;
+	outline: none;
+	color: white;
+	padding: 14px 16px;
+	background-color: inherit;
+}
+.submenu-content{
+	display: none;
+	position: absolute;
+	left: 0;
+	background-color: moccasin;
+	width: 100%;
+}
+.submenu-content a{
+	float: left;
+	color: black;
+	text-decoration: none;
+}
+.submenu:hover .submenu-content{
+	display: block;
+}
