@@ -1,0 +1,190 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+
+div{
+	margin-left: 20px;
+	height: 100px;
+	width: 100px;
+}
+img{
+	height: 150px;
+	border-radius: 20px;
+}
+ul{
+	display: flex;
+	align-items: center ;
+	
+
+}
+ul li{
+	list-style: none;
+
+}
+ul li a{
+	text-decoration: none;
+	justify-content: center;
+	padding:36px;
+	text-align: center;
+}
+header{
+	display: flex;
+	position: relative;
+	height: 150px;
+	font-size: 35px;
+}
+header:before{
+	content: "";
+	background-image: url(fb.jpg);
+	position: absolute;
+	width: 100%;
+	height: 150px;
+	opacity: 0.5;
+	z-index: -1;
+}
+section{
+	/*padding-top: 200px;*/
+	display: flex;
+	text-align: center;
+	font-size: 35px;
+	color: ;
+}
+section:before{
+	content: "";
+	background-image: url(b.jpg);
+	position:absolute;
+    width: 100%;
+	height: 100%;
+	background-size: cover;
+	opacity: 0.5;
+	z-index: -1;
+}
+.a{
+	text-align: center;
+}
+a:hover{
+	background-color: whitesmoke;
+}
+.google{
+	width: 100%;
+	border: 2px solid black;
+	display: flex;
+	height: 100%;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	height: 600px;
+	margin: auto;
+	text-align: center;
+	margin-top: 350px;
+	background-color: lightgray;
+}
+.new{
+	width: 100%;
+	border: 2px solid black;
+	text-align: center;
+	background-color: moccasin;
+	color: magenta;
+	height: 100%;
+	font-size: 25px;
+
+}
+.new:hover{
+box-shadow: 0px 10px 15px 20px;}
+
+.cd{
+	height: 600px;
+	margin-top: 300px;
+	margin-bottom: 300px;
+}
+.cd:hover{
+	box-shadow: 0px 5px 15px 15px;
+}
+.bd{
+	height: 600px;
+	margin-top:200px;
+
+}
+.bd:hover{
+	box-shadow: 0px 5px 15px 15px;
+
+}
+.gf{
+	height: 600px;
+	margin-top: 200px;
+	margin-bottom: 300px;
+}
+.gf:hover{
+	box-shadow: 0px 5px 15px 15px;
+}
+.hi{
+	height: 600px;
+	margin-top: 200px;
+}
+.hi:hover{
+	box-shadow: 0px 5px 15px 15px;
+}
+.center{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+
+
+
+}
+.im{
+	/*width: 100%;*/
+	width: 100%;
+	border: 2px solid black;
+	display: flex;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	height: 400px;
+	margin: auto;
+	text-align: center;
+	font-size: 40px;
+	background-color: lightslategray;
+}
+.ten{
+	height: 200%;
+	width: 100%;
+	text-align: center;
+	border:2px solid black;
+	background-color: lightslategray;
+}
+h1{
+	color: grey;
+	font-size: 85px;
+	text-align: center;
+
+}
+h3{
+	font-size: 45px;
+	color: lightcoral;
+	text-align: center;
+	margin-top: 200px;
+}
+button{
+	border-radius: 5px;
+	font-size: 25px;
+	margin-top: 100px;
+}
+button:hover{
+	background-color:royalblue;
+	color: white;
+
+}
+.container:hover{
+	box-shadow: 0px 5px 14px 20px;
+}
+.par{
+	position: relative;
+}
+.child{
+	width: 400px;
+	position: absolute;
+	top: 670px;
+	left: 500px;
+	color: yellow;
+	font-size: 40px;
+}
