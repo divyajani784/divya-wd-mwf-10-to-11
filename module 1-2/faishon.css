@@ -1,0 +1,52 @@
+ul li {display: flex;
+text-decoration: none;}
+
+
+header{position: relative;
+height: 200px;
+display: flex;}
+
+
+li{position: relative;
+padding: 50px;
+color: blue;}
+
+
+ul{display: flex;
+list-style: none;
+align-items: center; 
+font-size: 25px;}
+
+
+a{text-decoration: none;}
+
+
+button{background: red;
+color: blue;
+padding: 10px 30px;
+border: 2px solid black;}
+
+
+header:before{
+	content: :"";
+	background-image: url(faishon.png);
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-position: absolute;
+	opacity: 0.3;
+	z-index: -1;
+}
+
+
+section{color: black; font-size: 30px;}
+
+
+h1{text-align: center;
+color: blue;
+font-size: 50px;}
+
+a:hover{background: pink;
+color: blue;}

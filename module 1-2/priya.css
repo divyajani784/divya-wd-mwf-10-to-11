@@ -1,0 +1,23 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+header{
+
+height: 100%;
+display: flex;
+background-color: cyan;
+}
+div{
+
+}
+ul{
+	display:flex ;
+	align-items: center;
+
+
+
+
+}
+
+
