@@ -1,0 +1,136 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+.logo{
+	height: 100px;
+	width: 100px;
+
+}
+.logo img {
+	height: 250px;
+	width: 300px;
+	margin-left: 5px;
+	margin-left: 500px;
+	margin-top: 15px;
+	border-radius: 100%; 
+}
+ul{
+	display: flex;
+
+}
+ul li{
+	display: flex;
+	padding: 23px;
+}
+ul li a{
+	text-decoration: none;
+	margin-top: 100px;
+	margin-left: 50px;
+	font-size: 30px;
+	/*color: rgb(205, 92, 92);*/
+	/*color: black;*/
+	color: #E75480;
+}
+a:hover{
+	background-color: white;
+}
+.fa-color{
+	color: #E75480;
+
+}
+.open{
+	margin-top: 200px;
+	font-size: 30px;
+	color: rgb(205, 92, 92);
+	text-align: center;
+}
+.you{
+	background-color: peachpuff;
+}
+.title{
+	font-size: 30px;
+	text-align: center;
+	margin-top: 15px;
+	margin-bottom: 20px;
+	color: black;
+	background-color: white;
+}
+.main p{
+	color: white;
+	text-align: center;
+	font-size: 25px	;
+}
+
+
+.cupcake{
+	text-align: center;
+	height: 310px;
+	width: 610px;
+	border: 2px solid black;
+	margin-left: 400px;
+	font-size: 25px;
+	background-color: black;
+	color: white;
+	margin-top: 5px;
+}
+h2{
+	margin-left: 700px;
+	font-size: 40px;
+	color: white;
+}
+.flavour{
+	height: 400px;
+	margin-left: 400px;
+	/*width: 600px;*/
+	/*margin-left: 395px;*/
+}
+.me{
+	font-size: 40px;
+	background-color: black;
+	color: white;
+	text-align: center;
+	padding-left: 90px;
+
+}
+.i{
+	text-align: center;
+	height: 310px;
+	width: 610px;
+	/*border: 2px solid black;*/
+	margin-left: 400px;
+	font-size: 25px;
+	background-color: white;
+	color: black;
+	margin-top: 5px;
+
+}
+.abc{
+	background-color: black;
+	color: white;
+	font-size: 25px;
+	/*left: 0;*/
+}
+.xyz{
+	margin-left: 1000px;
+	/*position: absolute;*/
+	background-color: black;
+	color: white;
+	font-size: 25px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
