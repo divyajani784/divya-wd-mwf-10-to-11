@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript" src="script.js"></script>
+    <title>Document</title>
+    <style>
+        .container
+        {
+            border: solid 35px blue;
+            width: 25%;
+            height: 55vh;
+            background-color: black;
+            color: white;
+        }
+        .keys input{
+            width: 24%;
+            height: 30px;
+            color: white;
+            background-color: black;
+            border: none;
+            outline: none;
+        }
+        
+        table
+        {
+            width: 100%;
+            height: 20vh;
+        }
+    </style>
+</head>
+<body>
+    <center>
+            <div class="container">
+        <table>
+            <tr>
+                <td colspan="3"><input type="text" id="result" class="screen" onclick="cleanscreen()" style="width: 100%; height: 100%; margin-left: -2px; border:none ;"></td>
+                </tr>
+        </table>
+        <br>
+        <div class="keys">
+            <input type="button" value="7" class="button" onclick="display('7')" style=" border: none;"></input>
+            <input type="button" value="8" class="button" onclick="display('8')" style=" border: none;"></input>
+            <input type="button" value="9" class="button" onclick="display('9')" style="border: none;"></input>
+            <input type="button" value="DEL" class="operator" onclick="display('DEL')" style="border: none;"></input>
+            
+            <br><br>
+            <input type="button" value="4" class="button" onclick="display('4')" style=" border: none;"></input>
+            <input type="button" value="5" class="button" onclick="display('5')" style="border: none;"></input>
+            <input type="button" value="6" class="button" onclick="display('6')" style="border: none;"></input>
+            <input type="button" value="*" class="operator" onclick="display('*')" style="border: none"></input>
+            <br><br>
+            <input type="button" value="1" class="button" onclick="display('1')" style=" border: none;"></input>
+            <input type="button" value="2" class="button" onclick="display('2')" style="border: none;"></input>
+            <input type="button" value="3" class="button" onclick="display('3')" style="border: none;"></input>
+            <input type="button" value="-" class="operator" onclick="display('-')" style="border: none;"></input>
+            <br><br>
+            <input type="button" value="." class="button" onclick="display('.')" style=" border: none;"></input>
+            <input type="button" value="0" class="button" onclick="display('0')" style="border: none;"></input>
+            <input type="button" value="=" class="button equal-sign" onclick="solve()" style="border: none;"></input>
+            <input type="button" value="+" class="operator" onclick="display('+')" style="border: none;"></input>
+           
+        </div>
+    </div>
+    </center>
+</body>
+</html>
